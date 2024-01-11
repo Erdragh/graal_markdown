@@ -1,4 +1,4 @@
-[Quelle](https://daringfireball.net/projects/markdown/syntax.text)
+[Source](https://daringfireball.net/projects/markdown/syntax.text)
 
 Markdown: Syntax
 ================

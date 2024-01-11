@@ -83,7 +83,7 @@ The following table shows the distinctive possibilities on how to achieve this, 
         <li>
           Separate Node process necessary
           <ul>
-            <li>Docker-Container im selben Deployment</li>
+            <li>Additional docker container in deployment</li>
             <li>
               <a href="https://blog.termian.dev/posts/nodejs-in-java/">
                 Integration into JAR/WAR file
