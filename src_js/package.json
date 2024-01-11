@@ -1,0 +1,26 @@
+{
+  "name": "markdown_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.mjs",
+  "scripts": {
+    "dev": "node dev.mjs",
+    "build": "esbuild --format='esm' --platform='node' --bundle start.mjs --outfile=out.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "0.17.16",
+    "my-process": "file:my-process",
+    "my-url": "file:my-url",
+    "path-browserify": "^1.0.1",
+    "rehype-document": "^6.1.0",
+    "rehype-format": "^4.0.1",
+    "rehype-sanitize": "^5.0.1",
+    "rehype-stringify": "^9.0.3",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "remark-toc": "^8.0.1",
+    "unified": "^10.1.2"
+  }
+}
